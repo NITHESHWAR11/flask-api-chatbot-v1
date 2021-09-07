@@ -2,7 +2,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import nltk
 
- nltk.download()
+nltk.download()
 bot = ChatBot('Norman',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     database_uri='sqlite:///database.sqlite3')
