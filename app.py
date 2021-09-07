@@ -13,4 +13,4 @@ class ChatBot(Resource):
 api.add_resource(ChatBot, "/api/bot/")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
